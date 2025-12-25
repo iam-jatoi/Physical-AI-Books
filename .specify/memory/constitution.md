@@ -1,55 +1,69 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: N/A → 1.0.0
+- Modified principles: N/A (new constitution)
+- Added sections: Vision, Core Principles (6), Success Criteria, Constraints, Stakeholders, Brand Voice, Governance
+- Removed sections: N/A
+- Templates requiring updates: N/A
+- Follow-up TODOs: None
+-->
+
+# Physical AI Book Constitution
+
+## Vision
+To create an accessible, hands-on learning resource that demystifies Physical AI for beginners and intermediate learners, enabling them to understand, implement, and experiment with AI systems that interact with the physical world through robotics, sensors, and real-world applications.
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Hands-On Learning First
+Every concept must be accompanied by practical, executable examples that readers can run, modify, and experiment with. Theory without practice is incomplete; each chapter must include code samples, simulation exercises, or physical implementation guides that reinforce the theoretical concepts.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Beginner-Friendly Approach
+All content must be accessible to readers with minimal prerequisites. Complex topics should be broken down into digestible steps with clear explanations, visual aids, and analogies. Assume readers have basic programming knowledge but provide comprehensive introductions to specialized topics in Physical AI.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Docusaurus Documentation Excellence
+Leverage Docusaurus capabilities to create an intuitive, searchable, and well-structured documentation experience. Use its features for versioning, multi-language support, and interactive elements to enhance learning. Maintain consistent navigation and cross-linking between related concepts.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Modular Content Design
+Content must be structured in self-contained modules that can be consumed independently while maintaining coherence as a complete book. Each module should have clear learning objectives, prerequisites, and next-step recommendations to support different learning paths.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Real-World Application Focus
+All examples and exercises must connect to real-world Physical AI applications. Use case studies from robotics, autonomous systems, computer vision, and sensor integration to demonstrate practical relevance and inspire readers to build their own projects.
 
-### [PRINCIPLE_6_NAME]
+### VI. Progressive Complexity
+Content must follow a carefully planned progression from fundamental concepts to advanced topics. Each section builds upon previous knowledge with clear transitions. Include difficulty indicators and optional advanced sections for intermediate learners.
 
+## Success Criteria
 
-[PRINCIPLE__DESCRIPTION]
+- 90% of beginner readers can successfully execute provided code examples without requiring additional external resources
+- 80% of readers report increased confidence in implementing Physical AI systems after completing the book
+- 100% of concepts have practical examples with runnable code
+- Documentation achieves 4.5/5 rating for clarity and usability in user testing
+- Book content remains up-to-date with latest Physical AI developments through versioned documentation
+- Community engagement metrics: active discussion forum with solutions to common problems
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Constraints
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- Content must be accessible to readers with only basic Python programming knowledge
+- All code examples must run in standard Python environments or clearly documented simulation frameworks
+- Book size limited to 300 pages maximum to maintain focus and accessibility
+- All tools and libraries used must be open-source or have free-tier access for educational purposes
+- Content must be deployable using Docusaurus without requiring complex server infrastructure
+- Examples must work on standard consumer hardware (no specialized robotics equipment required)
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Stakeholders
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- **Primary**: Beginner to intermediate developers, students, and hobbyists interested in Physical AI
+- **Secondary**: Educators using the book as course material, researchers looking for practical implementations
+- **Tertiary**: Industry professionals seeking to understand Physical AI applications, content contributors
+- **Maintainers**: Technical writers, subject matter experts, community moderators
+
+## Brand Voice
+
+The book's voice should be approachable, encouraging, and technically accurate. Use clear, jargon-free language while maintaining precision in technical explanations. Be supportive and patient with readers, acknowledging that Physical AI concepts can be challenging. Include motivational elements and celebrate small wins to keep readers engaged. Maintain a professional tone while being conversational and friendly.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all content creation, review, and maintenance for the Physical AI book. All contributions must align with the stated principles and vision. Content updates require validation against success criteria. Versioning follows semantic versioning principles with major updates for significant content additions, minor updates for new modules or significant improvements, and patches for corrections and clarifications. All changes must be reviewed by at least one subject matter expert before publication.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-24 | **Last Amended**: 2025-12-24
